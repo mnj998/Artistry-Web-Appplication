@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Creative-arts</title>
+        <link rel="icon" href="../images/favi.png" type="images/x-icon">
+
+    <!-- Bootstrap link -->
+<link href="../css/bootstrap.css" rel="stylesheet" type="text/css">
+<link href="../css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link href="../css/style.css" rel="stylesheet" type="text/css">
+<!--link to Javascript-->
+<script src="../js/google.api.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/jquery.bxslider.js"></script>
+<script type="text/javascript" src="../js/jquery.mousewheel.min.js"></script>
+<script type="text/javascript" src="../js/jquery.fCarousel.min.js"></script>
+
+  </head>
+  <body>
+    <header id="brown">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-2"><a href="../index.html"><img src="../images/my-logo.png"></a></div>
+    <div class="col-md-10">
+      <nav class="navbar navbar-default navheader" role="navigation">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li><a href="../index.html">HOME</a></li>
+            <li><a href="wood.html">WOOD-PALLET</a></li>
+            <li><a href="tire.html">OLD-TIRE</a></li>
+            <li><a href="bottle.html">BOTTLE </a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li class="active"><a href="connect.html">CONNECT <span class="sr-only">(current)</span></a></li>
+          </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
+      </div>
+    </div>
+  </div>
+  </header>
+  <!-- /end navbar -->
+
+<div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2>MAIN OFFICE</h2>
+                <P style="text-align: center;">Tel: +254729028486 <br>
+                Email: Artistry@gmail.com<br>
+                P.O.Box: 575001 Mangalore, India</p>
+            </div>
+        </div>
+
+
+        
+</div>
+
+
+
+
+<div class="container-fluid" id="sect3">       
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d124440.31543465545!2d74.78202235498453!3d12.923150189648752!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba35a4c37bf488f%3A0x827bbc7a74fcfe64!2sMangalore%2C%20Karnataka%2C%20India!5e0!3m2!1sen!2sus!4v1609131592510!5m2!1sen!2sus" width="550" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>            </div>
+
+            <div class="col-md-6">
+                <div class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown"><button id="button">YOUR COMMENTS</button><span class="caret"></span></a>
+                    <div class="dropdown-menu" role="menu">
+                        <form>
+                            Full names<br>
+                            <input type="text" id="name"required><br><br>
+
+                            Telephone number :<br>
+                            <input type="digits" id="phone"required><br><br>
+
+                            Email address :<br>
+                            <input type="email" id="email"required><br><br>
+
+                            <textarea id="msg" form="usrform" placeholder="Type here"required></textarea><br><br>
+
+                            <button class="btn" onclick="handleSubmit()">submit</button>
+                        </form>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<a href="#" class="sf-back-to-top" id="arrow"></span><i class="fa fa-chevron-circle-up" aria-hidden="true"></i></a>
+
+
+<!-- footer icon animations -->
+
+ <section class="insidewrapper">
+      <div clss="row">  
+        <div class="col-sm-12">
+          <div class="socialmedia">
+            <div class="mainheading text-center">
+              <h2 style="color: white;">FOLLOW US ON</h2>
+            </div>
+
+                <div class="social facebook" id="icon">
+                    <a href="https://www.facebook.com"><i class="fa fa-facebook fa-2x"></a></i>        
+                </div>
+                <div class="social twitter" id="icon">
+                    <a href="http://twitter.com"><i class="fa fa-twitter fa-2x"></a></i>   
+                </div>
+                <div class="social pinterest" id="icon">
+                    <a href="https://www.pinterest.com"><i class="fa fa-pinterest fa-2x"></a></i>   
+                </div> 
+                <div class="social linkedin" id="icon">
+                    <a href="http://linkedin.com"><i class="fa fa-linkedin fa-2x"></a></i>   
+                </div>
+            </div>
+ 
+        </div>
+    </div>
+
+    
+<!-- copyright footer -->
+      <footer>
+        <div class="col-sm-12 text-center">
+          <h6>© 2020</h6>
+        </div>
+      </footer>
+    </section>
+
+    <script type="text/javascript">
+
+      function handleSubmit () {
+        var data = {
+          name : document.getElementById('name').value,
+          phone : document.getElementById('phone').value,
+          email : document.getElementById('email').value,
+          msg : document.getElementById('msg').value,
+        }
+        var apiUrl = 'http://localhost:9999/msg/add';
+          fetch(apiUrl, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(data),
+          }).then(response => {
+            return response.json();
+          }).then(data => {
+            // Work with JSON data here
+            console.log(data);
+          }).catch(err => {
+            // Do something for an error here
+            console.log(err)
+          });
+      }
+      
+        
+          </script>
+          
+
+  <!-- /end section -->
+<script type="text/javascript" src="../js/scripts.js"></script>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="../js/bootstrap.min.js"></script>
+  </body>
+</html>
